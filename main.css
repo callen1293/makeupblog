@@ -53,17 +53,39 @@ body {
         color: #000;
         
         
+        
     }
     
+     
     .menu-bar ul li a:hover {
         
-        text-decoration: underline;
+        
         color: #0fc69c
     }
+
+    
+ .two:hover ~ hr {
+     
+  margin-left: 12%;
+     
+}
+
+.three:hover ~ hr {
+    
+  margin-left: 25%;
+    
+}
+
     
     
-    
-    
+    hr {    
+  height: .12rem;
+  width: 8%;
+  margin: 0;
+  background: #0fc69c;
+  border: none;
+  transition: .3s ease-in-out;
+}
     
     
     
