@@ -15,4 +15,20 @@ $(document).ready(function(){
 
   })
     
+    
+    $(".close").click(function(){
+        
+        $(".overlay").hide();
+        
+    })
+    
+    
+    $(window).scroll(function(){
+    var scroll = $(window).scrollTop();
+      if (scroll > 1) {
+        $(".overlay").show();
+      } 
+  })
+    
+    
 });
