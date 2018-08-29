@@ -18,14 +18,14 @@ $(document).ready(function(){
     
     $(".close").click(function(){
         
-        $(".overlay").hide();
+        $(".overlay").remove();
         
     })
     
     
     $(window).scroll(function(){
     var scroll = $(window).scrollTop();
-      if (scroll > 1) {
+      if (scroll > 6) {
         $(".overlay").show();
       } 
   })
