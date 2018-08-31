@@ -311,6 +311,13 @@ body {
         
     }
     
+    .mainbody button:hover {
+        
+        background: #0fc69c;
+        color: #fff;
+        font-weight: 400;
+    }
+    
     
     
     
@@ -484,12 +491,14 @@ body {
     
     }
     
+   
+    
     /* posts */ 
     
     .posts {
         
         position: relative;
-        top: 350px;
+        top: 330px;
         left: 210px;
         outline: none;
         border: none;
