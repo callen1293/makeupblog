@@ -285,6 +285,7 @@ body {
     box-sizing: border-box;
     color: #fff;
     opacity: 0;
+   
 }
 
 .contentslider li:hover .content {
@@ -293,7 +294,10 @@ body {
     transition: 0.3s;
     transition-delay: 0.3s;
     opacity: 1;
+
 }
+    
+    
     
 /* main body */
     
@@ -695,7 +699,7 @@ body {
         
     position: relative;
     top: 20px;
-    right: 55px;
+    right: 50px;
       
         
     }
@@ -769,7 +773,7 @@ body {
     .icons2 {
         
         margin-top: 20px;
-        margin-left: 125px;
+        margin-left: 110px;
         
     }
   
@@ -978,6 +982,7 @@ body {
     transition: 0.7s;
     text-align: center;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .contentslider li:nth-child(1) {
@@ -1030,9 +1035,10 @@ body {
     width: 10%;
 }
 
-.contentslider li:hover {
+.contentslider li:hover{
     
     width: 45%;
+    
 }
 
 .contentslider li .content {
@@ -1050,8 +1056,8 @@ body {
 .contentslider li:hover .content {
     
     bottom: 0;
-    transition: 0.3s;
-    transition-delay: 0.3s;
+    transition: 0.1s;
+    transition-delay: 0.1s;
     opacity: 1;
 }
     
