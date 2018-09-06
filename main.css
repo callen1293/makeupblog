@@ -641,6 +641,7 @@ body {
     margin: 0;
     padding: 0;
     float: right;
+
     
 }
 
@@ -703,7 +704,7 @@ body {
   .logo {
         
     position: relative;
-    top: 20px;
+    top: 50px;
     right: 58px;
       
         
@@ -777,8 +778,11 @@ body {
 
     .icons2 {
         
-        margin-left: 90px;
-        margin-top: 10px;
+        margin-left: 80px;
+        padding-top: 10px;
+        z-index: 1;
+       
+    
         
        
     }
@@ -1010,7 +1014,7 @@ body {
       
   
     position: relative;
-    top: 35px;
+    top: 50px;
     width: 100%;
     height: 55vh;
     background: #fff;
@@ -1125,8 +1129,9 @@ body {
     
     .mobilemenu {
         
+        
         width: 100%;
-        height: 80px;
+        height: 90px;
         background: rgba(234, 235, 237,.4);
         
         
@@ -1139,9 +1144,9 @@ body {
         list-style: none;
         display: inline;
         font-size: 13px;
-        top: 40px;
-        right: 13px;
-        padding-right: 3px;
+        top: 50px;
+
+        padding-right: 32px;
         font-family: sans-serif;
         font-weight: 600;
     
