@@ -567,8 +567,7 @@ body {
     cursor: pointer;
     z-index: 1;
     box-sizing: border-box;
-    border-right: 2px solid #0fc69c;
-    border-bottom: 2px solid #0fc69c;
+    
     z-index: 2;
      
     
@@ -981,7 +980,7 @@ body {
     
      .subscribe-form input[type="submit"] {
          
-         width: 110px;
+         width: 120px;
          height: 60px;
          border-radius: 60px;
          border: none;
@@ -995,7 +994,7 @@ body {
          font-weight: bold;
          cursor: pointer;
          transition: .5s;
-         font-size: 20px;
+         font-size: 15px;
          
          
     }

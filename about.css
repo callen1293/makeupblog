@@ -181,16 +181,16 @@ body {
         top: 200px;
         left: 60px;
         font-family: sans-serif;
-        font-size: 70px;
+        font-size: 50px;
         color: #0fc69c;
     }
     
     .mainabout hr {
         
         position: relative;
-        top: 350px;
+        top: 330px;
         left: 50px; 
-        width: 35%;
+        width: 25%;
         margin: 0;
         background: #0fc69c;
         border: none;
@@ -201,68 +201,50 @@ body {
     }
     
     
+    
     .mainabout p {
         
         position: absolute;
         top: 350px;
         left: 60px;
         width: 65%;
-        font-size: 30px;
+        font-size: 20px;
         font-family: sans-serif;
         line-height: 40px;
         
         
     }
     
-    /* section 2 */
-    
-    .section2 {
-        
-        background: rgba(234, 235, 237,.4);
-        height: 500px;
-        width: 100%;
+    .contactusbutton {
         position: relative;
-        top: 100px; 
-        
-    }
-    
-    .section2 h2{
-        
-        position: relative;
-        top: 50px;
-        text-align: center;
-        font-family: sans-serif;
-        font-size: 50px;
+        top: 600px;
+        left: 57px;
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+        border: 3px solid #0fc69c;
         color: #0fc69c;
-        
+        cursor: pointer;
     }
     
-    .section2 hr {
-        
-  height: .19rem;
-  position: relative;
-  left: 533px;
-  top: 30px;
-  width: 25%;
-  margin: 0;
-  background: #0fc69c;
-  border: none;
- 
-        
-        
-    }
-    
-    .section2 p {
+    .postsbutton {
         
         position: relative;
-        top: 40px;
-        left: 40px;
-        font-size: 30px;
-        font-family: sans-serif;
-        line-height: 40px;
+        top: 600px;
+        left: 80px;
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+        border: 3px solid #0fc69c;
+        color: #0fc69c;
+        cursor: pointer;
+        
     }
+    
     
 }
+    
+   
 
 /* phone screen */
 
@@ -281,8 +263,7 @@ body {
     cursor: pointer;
     z-index: 1;
     box-sizing: border-box;
-    border-right: 2px solid #0fc69c;
-    border-bottom: 2px solid #0fc69c;
+   
     z-index: 2;
      
     
@@ -467,6 +448,11 @@ body {
        
     }
     
+    .nav hr {
+        
+        display: none;
+    }
+    
 
     
     .icons2 img {
@@ -530,16 +516,16 @@ body {
         top: 80px;
         left: 20px;
         font-family: sans-serif;
-        font-size: 35px;
+        font-size: 30px;
         color: #0fc69c;
     }
     
     .mainabout hr {
         
         position: relative;
-        top: 175px;
-        left: 15px; 
-        width: 65%;
+        top: 165px;
+        left: 10px; 
+        width: 50%;
         margin: 0;
         background: #0fc69c;
         border: none;
@@ -559,60 +545,41 @@ body {
         left: 20px;
         font-family: sans-serif;
         line-height: 30px;
+        font-size: 13px;
+        
+        
+        
+    }
+    
+     .contactusbutton {
+        position: relative;
+        top: 460px;
+        left: 15px;
+        height: 50px;
+        width: 150px;
         font-size: 15px;
-        
-        
-        
-    }
-    
-    /* section 2 */
-    
-    .section2 {
-        
-        background: rgba(234, 235, 237,.4);
-        height: 500px;
-        width: 100%;
-        position: relative;
-        top: 100px; 
-        
-    }
-    
-    .section2 h2{
-        
-        position: relative;
-        top: 50px;
-        text-align: center;
-        font-family: sans-serif;
-        font-size: 35px;
+        border: 3px solid #0fc69c;
         color: #0fc69c;
-        
+        cursor: pointer;
+          font-family: sans-serif;
     }
     
-    .section2 hr {
-        
-  height: .19rem;
-  position: relative;
-  left: 50px;
-  top: 45px;
-  width: 75%;
-  margin: 0;
-  background: #0fc69c;
-  border: none;
- 
-        
-        
-    }
-    
-    .section2 p {
+    .postsbutton {
         
         position: relative;
-        top: 55px;
-        font-family: sans-serif;
-        line-height: 30px;
-        text-align: center;
+        top: 460px;
+        left: 45px;
+        height: 50px;
+        width: 150px;
         font-size: 15px;
+        border: 3px solid #0fc69c;
+        color: #0fc69c;
+        cursor: pointer;
+        font-family: sans-serif;
+        
     }
     
+   
     
     
     
