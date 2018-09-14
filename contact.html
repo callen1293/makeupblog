@@ -3,7 +3,7 @@
 <head>
      <title>Blog</title>
      <meta name="viewport" content="width=device=width, initial-scale=1.0">
-     <link rel="stylesheet" type="text/css" href="about.css">
+     <link rel="stylesheet" type="text/css" href="contact.css">
      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
@@ -36,20 +36,32 @@
           <a href="#"><img class="youtube"  src="youtubeicon.png"></a>
      </div>
  </nav>
- <div class="mainabout">
-  <h2>What We Do</h2>
-  <hr />
-  <p>Makeup Blog is the number one global cosmetics blog and is available 
-      in over 129 countries worldwide. Offering more than 200 reviews, 
-      Makeup Blog combines technologically advanced formulas with 
-      on-trend expertise to create accessible cosmetics with a cool, urban edge 
-      and a spirited style. Makeup Blog is the official sponsor of New York 
-      Mercedes-Benz Fashion Week. We are proud to be part of such an amazing industry and plan on 
-     giving our viewers the best experience possible.</p>
-    <button type="button" class="contactusbutton">GET IN TOUCH</button>
-    <button type="button" class="postsbutton">OUR POSTS</button>
- </div>
-    
+    <div class="container">  
+  <form id="contact" action="" method="post">
+    <h3>Quick Contact</h3>
+    <h4>Contact us today, and get reply with in 24 hours!</h4>
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+ 
+  
+</div>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="blog.js"></script>
