@@ -227,7 +227,7 @@ body {
 
 .contentslider li:nth-child(1) {
     
-    background: url(lipstick.jpeg);
+    background: url(../images/lipstick.jpeg);
     background-size: cover;
     background-position: left;
     
@@ -235,7 +235,7 @@ body {
 
 .contentslider li:nth-child(2) {
     
-    background: url(mascara.jpg);
+    background: url(../images/mascara.jpg);
     background-size: cover;
     background-position: left;
     
@@ -243,7 +243,7 @@ body {
 
 .contentslider li:nth-child(3) {
     
-    background: url(highlight.jpeg);
+    background: url(../images/highlight.jpeg);
     background-size: cover;
     background-position: left;
 
@@ -252,7 +252,7 @@ body {
 
 .contentslider li:nth-child(4) {
     
-    background: url(eyeshadow.jpg);
+    background: url(../images/eyeshadow.jpg);
     background-size: cover;
     background-position: left;
     
@@ -260,7 +260,7 @@ body {
 
 .contentslider li:nth-child(5) {
     
-    background: url(brushes.jpg);
+    background: url(../images/brushes.jpg);
     background-size: cover;
     background-position: left;
 
@@ -1035,7 +1035,7 @@ body {
 
 .contentslider li:nth-child(1) {
     
-    background: url(lipstick.jpeg);
+    background: url(../images/lipstick.jpeg);
     background-size: cover;
     background-position: left;
     
@@ -1043,7 +1043,7 @@ body {
 
 .contentslider li:nth-child(2) {
     
-    background: url(mascara.jpg);
+    background: url(../images/mascara.jpg);
     background-size: cover;
     background-position: left;
     
@@ -1051,7 +1051,7 @@ body {
 
 .contentslider li:nth-child(3) {
     
-    background: url(highlight.jpeg);
+    background: url(../images/highlight.jpeg);
     background-size: cover;
     background-position: left;
 
@@ -1060,7 +1060,7 @@ body {
 
 .contentslider li:nth-child(4) {
     
-    background: url(eyeshadow.jpg);
+    background: url(../images/eyeshadow.jpg);
     background-size: cover;
     background-position: left;
     
@@ -1068,7 +1068,7 @@ body {
 
 .contentslider li:nth-child(5) {
     
-    background: url(brushes.jpg);
+    background: url(../images/brushes.jpg);
     background-size: cover;
     background-position: left;
 
